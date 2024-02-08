@@ -1,5 +1,5 @@
 const { collection, renderer } = require('mkbk');
-const config = require('./config');
+const config = require('../config');
 
 // Create a collection project
 const project = collection.parse(config);
